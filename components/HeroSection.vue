@@ -38,6 +38,6 @@
 
 <style>
 .banner {
-  background-image: url(../assets/banner.jpg);
+  background-image: url(../assets/banner-compressed.jpg);
 }
 </style>
