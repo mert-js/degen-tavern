@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen banner bg-cover bg-center">
-    <div class="absolute inset-0 bg-black bg-opacity-30" />
+    <div class="absolute inset-0 bg-black bg-opacity-20" />
     <div class="relative isolate px-6 pt-14 lg:px-8">
       <div
         class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
