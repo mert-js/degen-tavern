@@ -23,10 +23,14 @@
           <div class="mt-10 flex items-center justify-center gap-x-6">
             <a
               href="#"
-              class="rounded-full bg-bondi-blue-500 px-8 py-3 drop-shadow-md text-sm font-semibold text-white shadow-xs hover:bg-bondi-blue-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-              >Join Degen Tavern on Discord</a
+              class="rounded-full bg-bondi-blue-500 px-8 py-3 drop-shadow-md text-md font-Tavern uppercase tracking-widest font-semibold text-white shadow-xs hover:bg-bondi-blue-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-bondi-blue-600"
+              ><span class="drop-shadow-md"
+                >Join Degen Tavern on Discord</span
+              ></a
             >
-            <a href="#" class="text-sm/6 font-semibold text-white"
+            <a
+              href="#"
+              class="text-md/6 font-semibold font-Tavern tracking-widest uppercase text-white drop-shadow-md"
               >Not convinced yet? <span aria-hidden="true">→</span></a
             >
           </div>
