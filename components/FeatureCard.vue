@@ -33,7 +33,7 @@
 
 <script setup>
 const el = ref();
-const { elementX, elementY } = useSharedMouseInElement(el);
+const { elementX, elementY } = useMouseInElement(el);
 
 const props = defineProps({
   title: {
