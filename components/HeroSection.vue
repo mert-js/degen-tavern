@@ -31,7 +31,7 @@
             <a
               href="#"
               class="text-md/6 font-semibold font-Tavern tracking-widest uppercase text-white drop-shadow-md"
-              >Not convinced yet? <span aria-hidden="true">→</span></a
+              >Not convinced yet? <span aria-hidden="true">↓</span></a
             >
           </div>
         </div>

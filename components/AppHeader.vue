@@ -39,7 +39,7 @@
         >
           <span class="absolute -inset-1.5" />
           <svg
-            class="h-8 w-8 text-gray-500"
+            class="w-[28px] h-[28px]"
             width="24"
             height="24"
             viewBox="0 0 24 24"
@@ -60,7 +60,7 @@
         >
           <span class="absolute -inset-1.5" />
           <svg
-            class="w-[40px] h-[40px] text-gray-800 dark:text-white"
+            class="w-[36px] h-[36px]"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -76,7 +76,7 @@
       </div>
     </nav>
     <Dialog
-      class="lg:hidden"
+      class="lg:hidden transition"
       :open="mobileMenuOpen"
       @close="mobileMenuOpen = false"
     >
@@ -132,8 +132,8 @@ import { Dialog, DialogPanel } from "@headlessui/vue";
 import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 
 const navigation = [
+  { name: "Tavern’s Treasures", href: "#features" },
   { name: "Tavern Keepers", href: "#" },
-  { name: "Tavern’s Treasures", href: "#" },
   { name: "Hall of Winners", href: "#" },
   { name: "Join the tavern", href: "#" },
 ];
