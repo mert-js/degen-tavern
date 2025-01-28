@@ -21,7 +21,7 @@
           </p>
         </div>
         <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-6xl">
-          <dl
+          <!-- <dl
             class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-3 lg:gap-y-16"
           >
             <div
@@ -45,7 +45,16 @@
                 {{ feature.description }}
               </dd>
             </div>
-          </dl>
+          </dl> -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8">
+            <FeatureCard
+              v-for="feature in features"
+              :key="feature"
+              :title="feature.title"
+              :description="feature.description"
+              :icon="feature.icon"
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -64,37 +73,37 @@ import {
 
 const features = [
   {
-    name: "Premium Calls",
+    title: "Premium Calls",
     description:
       "Get access to high-accuracy calls from experienced traders who consistently spot winning opportunities.",
     icon: MegaphoneIcon,
   },
   {
-    name: "Live Trading Sessions",
+    title: "Live Trading Sessions",
     description:
       "Watch, learn, and trade in real time with experts guiding you through the process three times a week.",
     icon: VideoCameraIcon,
   },
   {
-    name: "Premium Bots",
+    title: "Premium Bots",
     description:
       "Leverage advanced bots to analyze markets, track trends, and make smarter trading decisions.",
     icon: RocketLaunchIcon,
   },
   {
-    name: "Educational Resources",
+    title: "Educational Resources",
     description:
       "Access our tutorials on technical analysis, indicators, NFT scoping, and more to level up your trading skills.",
     icon: AcademicCapIcon,
   },
   {
-    name: "Whale-Only Perks",
+    title: "Whale-Only Perks",
     description:
       "For top-tier members, enjoy exclusive calls, private chats, advanced strategies, and early access to upcoming features.",
     icon: CurrencyDollarIcon,
   },
   {
-    name: "1-on-1 Support",
+    title: "1-on-1 Support",
     description:
       "Get personalized guidance from profitable traders and Key Opinion Leaders (KOLs).",
     icon: ChatBubbleLeftRightIcon,

@@ -8,3 +8,11 @@
   font-family: "Tavern";
   src: url("../fonts/Tavern.ttf");
 }
+
+::selection {
+  background: rgba(44, 149, 181, 0.5) !important;
+}
+
+::-moz-selection {
+  background: rgba(44, 149, 181, 0.5) !important;
+}
