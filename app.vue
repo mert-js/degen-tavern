@@ -4,5 +4,6 @@
     <HeroSection />
     <FeatureSection />
     <SuccessSection />
+    <PricingSection />
   </div>
 </template>
