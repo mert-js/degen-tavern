@@ -22,7 +22,9 @@
                 <div class="flex items-center gap-x-4 mt-4">
                   <img
                     class="size-12 rounded-full"
-                    :src="'/public/avatars/' + success.avatar"
+                    :src="
+                      '/degen-tavern/_nuxt/public/avatars/' + success.avatar
+                    "
                     alt=""
                   />
                   <div>
