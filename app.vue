@@ -3,5 +3,6 @@
     <AppHeader />
     <HeroSection />
     <FeatureSection />
+    <SuccessSection />
   </div>
 </template>

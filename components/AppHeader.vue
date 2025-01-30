@@ -133,8 +133,8 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 
 const navigation = [
   { name: "Tavern’s Treasures", href: "#features" },
+  { name: "Hall of Winners", href: "#success" },
   { name: "Tavern Keepers", href: "#" },
-  { name: "Hall of Winners", href: "#" },
   { name: "Join the tavern", href: "#" },
 ];
 

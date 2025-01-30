@@ -22,6 +22,15 @@ export default {
           950: "#132b39",
         },
       },
+      animation: {
+        "infinite-scroll": "infinite-scroll 35s linear infinite",
+      },
+      keyframes: {
+        "infinite-scroll": {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-100%)" },
+        },
+      },
     },
   },
   plugins: [],

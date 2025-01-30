@@ -21,31 +21,6 @@
           </p>
         </div>
         <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-6xl">
-          <!-- <dl
-            class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-3 lg:gap-y-16"
-          >
-            <div
-              v-for="feature in features"
-              :key="feature.name"
-              class="relative pl-16"
-            >
-              <dt class="text-base/7 font-semibold text-gray-900">
-                <div
-                  class="absolute top-0 left-0 flex size-10 items-center justify-center rounded-full bg-bondi-blue-500"
-                >
-                  <component
-                    :is="feature.icon"
-                    class="size-6 text-white"
-                    aria-hidden="true"
-                  />
-                </div>
-                {{ feature.name }}
-              </dt>
-              <dd class="mt-2 text-base/7 text-gray-600">
-                {{ feature.description }}
-              </dd>
-            </div>
-          </dl> -->
           <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8">
             <FeatureCard
               v-for="feature in features"
@@ -110,3 +85,12 @@ const features = [
   },
 ];
 </script>
+
+<style>
+/* #features {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" transform="scale(-1,-1)" viewBox="0 0 1000 100" fill="%2346acca"><path d="M0 0v90.2C49.7 99.9 105 82 160 65c75.5-23.3 145.5-22.4 222-3 63 16 119 14 173-8 79.5-32.4 156.2-27.6 240-10 82.6 17.4 143-1 205-31.7V0H0Z"></path></svg>');
+  background-position: bottom;
+  padding-bottom: 10%;
+  position: relative;
+} */
+</style>
