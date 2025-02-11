@@ -5,5 +5,6 @@
     <FeatureSection />
     <SuccessSection />
     <PricingSection />
+    <TeamSection />
   </div>
 </template>

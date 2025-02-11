@@ -23,7 +23,7 @@
                   <img
                     class="size-12 rounded-full"
                     :src="
-                      '/degen-tavern/_nuxt/public/avatars/' + success.avatar
+                      '/degen-tavern/_nuxt/assets/avatars/' + success.avatar
                     "
                     alt=""
                   />
@@ -61,7 +61,7 @@
                   <img
                     class="size-12 rounded-full"
                     :src="
-                      '/degen-tavern/_nuxt/public/avatars/' + success.avatar
+                      '/degen-tavern/_nuxt/assets/avatars/' + success.avatar
                     "
                     alt=""
                   />

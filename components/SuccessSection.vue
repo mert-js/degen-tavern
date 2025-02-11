@@ -1,6 +1,6 @@
 <template>
   <section id="success">
-    <div class="bg-bondi-blue-400 py-24 sm:py-32">
+    <div class="bg-bondi-blue-500 py-24 sm:py-32">
       <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto max-w-4xl lg:text-center">
           <h2 class="text-base/7 font-semibold text-white">Success Stories</h2>
